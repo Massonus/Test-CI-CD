@@ -33,7 +33,7 @@ jobs:
       run: 'pwd'
 
     - name: List files
-      run: 'ls -al'
+      run: 'dir /w'
 
     - name: Install Dependencies
       run: 'mvn compile'
